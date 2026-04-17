@@ -789,7 +789,7 @@ body::before{content:'';position:fixed;top:-50%;left:-50%;width:200%;height:200%
         <div class="guide-step-num">S</div>
         <div class="guide-step-label" style="color:#a5b4fc">Search</div>
         <h3>10 Tabs</h3>
-        <p>Overview (+ Coverage Heatmap) · Technical · Content (+ Originality Signature) · Structure · Authority (+ Research Flags) · Keywords · Web Lens · AI Search · AI Prompt</p>
+        <p>Overview (+ Coverage Heatmap) · Technical · Content (+ Originality Signature) · Structure · Authority (+ Research Flags) · Keywords · Business Impact · AI Search · AI Prompt</p>
       </div>
       <div class="guide-step" style="border-top:3px solid var(--design)">
         <div class="guide-step-num">D</div>
@@ -1148,7 +1148,7 @@ body::before{content:'';position:fixed;top:-50%;left:-50%;width:200%;height:200%
     <button class="tab-btn" onclick="switchTab('search','seo-structure',this)">Structure <span class="tab-count">4</span></button>
     <button class="tab-btn" onclick="switchTab('search','seo-authority',this)">Authority <span class="tab-count">4</span></button>
     <button class="tab-btn" onclick="switchTab('search','seo-keywords',this)">Keywords <span class="tab-count">8</span></button>
-    <button class="tab-btn" onclick="switchTab('search','seo-weblens',this)">Web Lens</button>
+    <button class="tab-btn" onclick="switchTab('search','seo-weblens',this)">Business Impact</button>
     <button class="tab-btn" onclick="switchTab('search','seo-aisearch',this)">AI Search</button>
     <button class="tab-btn" onclick="switchTab('search','seo-prompt',this)">AI Prompt</button>
   </div></div>
@@ -1335,7 +1335,7 @@ body::before{content:'';position:fixed;top:-50%;left:-50%;width:200%;height:200%
     </div>
     <div class="research-flag-full">
       <h4>💷 2. Average Booking Value Per Location</h4>
-      <p>The Web Lens COI model uses a £35/head estimate for table bookings. The actual average spend (including private hire, events, and mixed covers) would make the revenue impact calculations precise rather than indicative. This figure is particularly important for the private hire and events opportunity sizing.</p>
+      <p>The Business Impact COI model uses a £35/head estimate for table bookings. The actual average spend (including private hire, events, and mixed covers) would make the revenue impact calculations precise rather than indicative. This figure is particularly important for the private hire and events opportunity sizing.</p>
       <div class="flag-how">How to get: pull per-location average check size from the reservation or POS system. Ask the client for a rough per-location average if exact data isn't accessible.</div>
     </div>
     <div class="research-flag-full">
@@ -1380,9 +1380,12 @@ body::before{content:'';position:fixed;top:-50%;left:-50%;width:200%;height:200%
     </div>
   </div></div>
 
-  <!-- Web Lens (M13) -->
+  <!-- Business Impact (M13) -->
   <div id="tab-seo-weblens" class="tab-content"><div class="container">
-    <div class="section-title">Web Revenue Lens</div><div class="section-subtitle">£-denominated business impact model — 4 components</div>
+    <div class="section-title">Business Impact</div><div class="section-subtitle">£-denominated business impact model — 4 components</div>
+    <div style="padding:12px 16px;background:rgba(59,130,246,0.06);border:1px solid rgba(59,130,246,0.2);border-radius:var(--radius-sm);margin-bottom:20px;font-size:12px;color:var(--text-secondary);line-height:1.6">
+      <strong style="color:var(--blue)">Disclaimer:</strong> All figures in this section are estimates based on industry average search volumes, click-through rates, and conversion benchmarks. They are indicative models intended to illustrate the scale of the revenue opportunity — not audited revenue figures. Actual results will vary based on Champagne+Fromage's specific conversion rates, booking values, and competitive position at the time of implementation.
+    </div>
 
     <div class="section-title" style="font-size:17px;margin-bottom:6px">Component A — Keyword Traffic £ Valuation</div>
     <div class="section-subtitle">Annual addressable revenue from organic search if ranked #1 for all target keywords</div>
